@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/principal.css">
+    <title>interesante</title>
+</head>
+<body onload=AlertaInicio()>
+    <div id="contenedora">
+        <div id="head">
+            <div id="logo">
+                <img id="img1" src="multimedia/img/logo.png" alt="logo">
+            </div>
+            <div id="nombre">
+                <h1>INTERESANTE</h1>
+            </div>
+            <div><img id="user" src="multimedia/img/user.png" alt="user" title="no ha iniciado sesión"></div>
+        </div>
+        <div id="menu">
+            <div id="lista">
+               <li id="casa"><a href="index.html"><img src="multimedia/img/casa.png" alt="casa"></a></li>
+               <li><a href="#">Articulos</a>
+                <ul>
+                    <li><a href="#">Nuevos</a></li>
+                    <li><a href="#">Relevantes</a></li>
+                    <li><a href="#">Todos</a></li>
+                </ul>
+               </li>
+               <li><a href="#">Noticias</a></li>
+               <li><a onclick=errorInicio() href="#" >Solicitudes</a></li>
+               <li><a href="#">Iniciar sesión</a>
+                <ul>
+                    <li><a href="html/loginEv.html">Como Evaluador</a></li>
+                    <li><a href="html/loginLec.html">Como Lector</a></li>
+                </ul>
+               </li>
+               <li id="lupa"><a href="#"><img src="multimedia/img/lupa.png" alt="lupa"></a></li> 
+            </div>
+        </div>
+        <div id="recibidor">
+            <div id="crimagen">
+                <img id="rimagen" src="multimedia/img/students_09.jpg" alt="estudiantes">
+            </div>
+            <div id="rtexto">
+                <p>una pagina de libre expresión</p>
+                <p>para estudiantes</p>
+                <p id="mas">más información</p>
+            </div>
+        </div>
+        <div id="articulos">
+            <div id="art">
+                <div id="caimagen">
+                    <img id="aimagen" src="multimedia/img/comunicacion-linea_1098-15842.jpg" alt="comu linea">
+                </div>
+                <div id="atexto">
+                    <h2>II Encuentro Regional REDI de las y los jóvenes de la región de El Catatumbo</h2>
+                    <p>El Grupo de Investigación en Asuntos Ambientales y Desarrollo Sostenible</p>
+                    <p>(Mindala) de la UFPS Seccional Ocaña con la Fundación Ideas para la Paz (FIP)</p>
+                    <p> en el marco de un convenio de cooperación</p>
+                </div>
+                </div>
+            <div id="art">
+                <div id="caimagen">
+                    <img id="aimagen" src="multimedia/img/two-happy-students-with-backpacks-and-books-in-their-hands-smiling-at-camera.jpg" alt="imagenestudiantes">
+                </div>
+                <div id="atexto">
+                    <h2>Biblioteca Argemiro Bayona Portillo celebró el Día Internacional del Café</h2>
+                    <p>En las instalaciones de la Biblioteca "Argemiro Bayona Portillo" de la</p>
+                    <p>Universidad Francisco de Paula Santander Seccional Ocaña, se llevó a cabo la</p>
+                    <p>celebración del Día Internacional del Café.</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="redes">
+                <img src="multimedia/img/redes.png" alt="">
+            </div>
+            <div>
+                <h2>contacto</h2>
+                <p>jcalvarezs@ugpso.edu.co</p>
+                <p>+57 314 2721376</p>
+                <p>jefersson alvarez</p>
+            </div>
+            <div>
+                <h2>comunidad</h2>
+                <p>foro de discusión</p>
+                <p>comentarios</p>
+            </div>
+            <div>
+                <h2>aviso legal</h2>
+                <p>copyright</p>
+                <p>todos los derechos reservados</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/principal.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/sweetalert2.all.min.js"></script>
+</body>
+</html>

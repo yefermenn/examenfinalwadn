@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/principal.css">
+    <title>iniciar sesion</title>
+</head>
+<body style="background-image: url(../multimedia/img/fondo.jpeg); background-size: cover;">
+    <div id="contenedora1">
+        <div id="menu1">
+            <div id="lista">
+               <li id="casa"><a href="../index.html"><img src="../multimedia/img/casa.png" alt="casa"></a></li>
+               <li><a href="#">Articulos</a>
+                <ul>
+                    <li><a href="#">Nuevos</a></li>
+                    <li><a href="#">Relevantes</a></li>
+                    <li><a href="#">Todos</a></li>
+                </ul>
+               </li>
+               <li><a href="#">Noticias</a></li>
+               <li><a href="#">Solicitudes</a></li>
+               </li>
+               <li id="lupa"><a href="#"><img src="../multimedia/img/lupa.png" alt="lupa"></a></li> 
+            </div>
+        </div>
+        <div id="formulario">
+            <fieldset>
+                <legend></legend>
+                <img src="../multimedia/img/user.png" alt="">
+                <h1 id="titform">iniciar sesión</h1>
+                <div id="estexto">
+                    <label for="nombre">nombre</label>
+                </div>
+                    <input onblur=validar() type="text" size="30" placeholder="escriba el nombre de usuario" id="campo1">
+                    <p id="c1">Por favor complete este campo</p>
+                <div id="estexto">
+                    <label for="password">contraseña</label>
+                </div>
+                    <input onblur=validar() type="password"size="30" placeholder="escriba la contraseña" id="campo2">
+                    <p id="c2">Por favor complete este campo</p>
+                <div>
+                    <button onclick=entrarLec()>entrar</button>
+                </div>
+            </fieldset>
+        </div>
+    <script src="../js/principal.js"></script>
+    <script src="../js/jquery-3.6.1.min.js"></script>
+    <script src="../js/sweetalert2.all.min.js"></script>
+</body>
+</html>
